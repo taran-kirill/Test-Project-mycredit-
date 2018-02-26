@@ -1,0 +1,355 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?z3wrqd');
+  src:  url('../fonts/icomoon.eot?z3wrqd#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?z3wrqd') format('truetype'),
+    url('../fonts/icomoon.woff?z3wrqd') format('woff'),
+    url('../fonts/icomoon.svg?z3wrqd#icomoon') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?no7zrr');
+  src:  url('fonts/icomoon.eot?no7zrr#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?no7zrr') format('truetype'),
+    url('fonts/icomoon.woff?no7zrr') format('woff'),
+    url('fonts/icomoon.svg?no7zrr#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-down:before {
+  content: "\e900";
+}
+.icon-arrow-left:before {
+  content: "\e901";
+}
+.icon-arrow-right:before {
+  content: "\e902";
+}
+.icon-arrow-up:before {
+  content: "\e903";
+}
+.icon-back-link:before {
+  content: "\e904";
+}
+.icon-badge-new-secret .path1:before {
+  content: "\e905";
+  color: rgb(174, 180, 193);
+}
+.icon-badge-new-secret .path2:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-badge-new-secret .path3:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-badge-new-secret .path4:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-badge-new-secret .path5:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-badge-new-secret .path6:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-badge-new-secret .path7:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-badge-new-secret .path8:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-badge-new-secret .path9:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-badge-new-secret .path10:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-badge-new-secret .path11:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-badge-new-secret .path12:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-badge-new-secret .path13:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-badge-new-secret .path14:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-badge-new-secret .path15:before {
+  content: "\e913";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-badge-new-secret .path16:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-badge-new-secret .path17:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-badge-new-secret .path18:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-badge-new-secret .path19:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-badge-new-secret .path20:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-badge-new-secret .path21:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-badge-new-secret .path22:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-badge-new-secret .path23:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-badge-new-secret .path24:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-badge-new-secret .path25:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-badge-new-secret .path26:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-badge-new-secret .path27:before {
+  content: "\e91f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-badge-new-secret .path28:before {
+  content: "\e920";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-badge-socio .path1:before {
+  content: "\e921";
+  color: rgb(100, 175, 128);
+}
+.icon-badge-socio .path2:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: rgb(236, 236, 236);
+}
+.icon-badge-socio .path3:before {
+  content: "\e923";
+  margin-left: -1em;
+  color: rgb(59, 89, 152);
+}
+.icon-badge-socio .path4:before {
+  content: "\e924";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-badge-socio .path5:before {
+  content: "\e925";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-badge-socio .path6:before {
+  content: "\e926";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-badge-socio .path7:before {
+  content: "\e927";
+  margin-left: -1em;
+  color: rgb(213, 226, 238);
+}
+.icon-badge-socio .path8:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(186, 204, 224);
+}
+.icon-credit-cards-ico:before {
+  content: "\e929";
+}
+.icon-dropdawn-calculator:before {
+  content: "\e92a";
+}
+.icon-ico-card-link:before {
+  content: "\e92b";
+}
+.icon-ico-password-link:before {
+  content: "\e92c";
+}
+.icon-LK-error-bad:before {
+  content: "\e92d";
+}
+.icon-LK-notification-good:before {
+  content: "\e92e";
+}
+.icon-logo-button:before {
+  content: "\e92f";
+}
+.icon-menu-01-my-credit:before {
+  content: "\e930";
+}
+.icon-menu-02-my-info:before {
+  content: "\e931";
+}
+.icon-menu-03-my-cards:before {
+  content: "\e932";
+}
+.icon-menu-04-my-bonus:after {
+  content: "\e933";
+}
+.icon-menu-05-my-history:before {
+  content: "\e934";
+}
+.icon-menu-bank:before {
+  content: "\e935";
+}
+.icon-menu-ibox .path1:before {
+  content: "\e936";
+  color: rgb(255, 255, 255);
+}
+.icon-menu-ibox .path2:before {
+  content: "\e937";
+  margin-left: -1em;
+  color: rgb(65, 65, 70);
+}
+.icon-menu-ibox .path3:before {
+  content: "\e938";
+  margin-left: -1em;
+  color: rgb(65, 65, 70);
+}
+.icon-menu-ibox .path4:before {
+  content: "\e939";
+  margin-left: -1em;
+  color: rgb(65, 65, 70);
+}
+.icon-menu-ibox .path5:before {
+  content: "\e93a";
+  margin-left: -1em;
+  color: rgb(65, 65, 70);
+}
+.icon-menu-ibox .path6:before {
+  content: "\e93b";
+  margin-left: -1em;
+  color: rgb(255, 65, 149);
+}
+.icon-menu-ibox .path7:before {
+  content: "\e93c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-menu-ibox .path8:before {
+  content: "\e93d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-menu-visa-mastercard .path1:before {
+  content: "\e93e";
+  color: rgb(53, 46, 127);
+}
+.icon-menu-visa-mastercard .path2:before {
+  content: "\e93f";
+  margin-left: -1em;
+  color: rgb(53, 46, 127);
+}
+.icon-menu-visa-mastercard .path3:before {
+  content: "\e940";
+  margin-left: -1em;
+  color: rgb(53, 46, 127);
+}
+.icon-menu-visa-mastercard .path4:before {
+  content: "\e941";
+  margin-left: -1em;
+  color: rgb(53, 46, 127);
+}
+.icon-menu-visa-mastercard .path5:before {
+  content: "\e942";
+  margin-left: -1em;
+  color: rgb(53, 46, 127);
+}
+.icon-menu-visa-mastercard .path6:before {
+  content: "\e943";
+  margin-left: -1em;
+  color: rgb(212, 100, 43);
+}
+.icon-menu-visa-mastercard .path7:before {
+  content: "\e944";
+  margin-left: -1em;
+  color: rgb(196, 32, 40);
+}
+.icon-menu-visa-mastercard .path8:before {
+  content: "\e945";
+  margin-left: -1em;
+  color: rgb(226, 156, 47);
+}
+.icon-print-button:before {
+  content: "\e946";
+}
+.icon-shield-button:before {
+  content: "\e947";
+}
+.icon-sum:before {
+  content: "\e948";
+}
