@@ -442,12 +442,19 @@ input[type="text"]::-ms-reveal {
 										}
 										.right-b {
 											margin-left: 10px;
+											text-align: left;
 											p {
 												font-size: 12px;
 												text-align: left;
 												color: #393939;
-												font-family: 'HelveticaNeueCyr-Italic'; 
+												font-family: 'HelveticaNeueCyr-Light';
 												line-height: 1;
+												font-style: italic;
+											}
+											.link-action {
+												font-size: 12px;
+												line-height: 1;
+												text-decoration: underline;
 											}
 										}
 									}
@@ -491,12 +498,16 @@ input[type="text"]::-ms-reveal {
 					}
 				}
 				.side-bar {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
 					.block-bonuses {
 						background: $white-color;
 						border-radius: 5px;
 						padding: 16px 22px;
 						text-align: center;
 						margin-bottom: 20px;
+						width: 100%;
 						.block-info {
 							font-size: 15px;
 							background: #d7e9ff;
@@ -557,6 +568,7 @@ input[type="text"]::-ms-reveal {
 					.b-advertising {
 						background: url(../img/bg-advertising.png) no-repeat;
 						max-height: 287px;
+						max-width: 280px;
 						overflow: hidden;
 						width: 100%;
 						height: 100%;
@@ -618,8 +630,9 @@ input[type="text"]::-ms-reveal {
 						.btn-footer-menu {
 							position: absolute;
 							top: 0;
-							right: 5%;
+							right: 1%;
 							display: none;
+							font-size: 30px;
 						}
 						.footer-menu-b {
 							.footer-menu {
@@ -651,8 +664,9 @@ input[type="text"]::-ms-reveal {
 					.btn-footer-menu {
 						position: absolute;
 						top: 0;
-						right: 5%;
+						right: 1%;
 						display: none;
+						font-size: 30px;
 					}
 					.footer-menu-b {
 						display: flex;
@@ -801,6 +815,19 @@ input[type="text"]::-ms-reveal {
 									width: 100%;
 								}
 							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.footer {
+		.footer-top  {
+			.container {
+				.right-block {
+					.footer-phone {
+						.phone-city {
+							font-size: 22px;
 						}
 					}
 				}
@@ -992,7 +1019,7 @@ input[type="text"]::-ms-reveal {
 				.footer-description {
 					.footer-text {
 						margin-bottom: 30px;
-						line-height: 22px;
+
 					}
 				}
 			}
@@ -1035,6 +1062,7 @@ input[type="text"]::-ms-reveal {
 					.top-block {
 						text-align: center;
 						margin: 0;
+						padding: 0;
 						.footer-col-1,
 						.footer-col-2,
 						.footer-col-3 {
