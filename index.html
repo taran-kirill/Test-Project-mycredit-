@@ -12,13 +12,13 @@
 	<!--HEADER-->
 	<header class="header container">
 		<div class="col-lg-12 row no-m no-p">
-			<div class="block-logo col-lg-2 col-md-2 col-sm-3 no-p">
+			<div class="block-logo col-lg-2 col-md-2 col-sm-4 col-xs-5 no-p">
 				<a href="#" class="img-block">
 					<img src="img/logo.png" alt="logo">
 				</a>
 			</div>
-			<nav class="navbar-toggleable-md navbar-light col-lg-9 col-md-10 col-sm-10 col-xs-10 col-lg-offset-1 col-md-offset-0 no-p">
-				<span class="mobile-btn-menu col-sm-9" onclick="openNav()">
+			<nav class="navbar-toggleable-md navbar-light col-lg-9 col-md-10 col-sm-8 col-xs-7 col-lg-offset-1 col-md-offset-0 no-p">
+				<span class="mobile-btn-menu" onclick="openNav()">
 					<i class="fa fa-bars" aria-hidden="true"></i>
 				</span>
 				<div class="sidenav nav col-lg-9 col-md-9 no-p" id="mySidenav">
@@ -46,7 +46,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="b-action-h col-lg-3 col-md-3 col-sm-5  no-p">
+				<div class="b-action-h col-lg-3 no-p">
 					<div class="dropdown">
 						<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Серафима
 							<span class="caret"></span>
@@ -73,54 +73,52 @@
 		<section class="section-block-discounts">
 			<div class="container">
 				<span class="h2">Мои бонусы</span>
-				<div class="col-lg-12 block-btn-bar no-p">
-						<ul class="nav nav-pills">
-							<li class="nav-item">
-								<a class="nav-link item-1" href="#">
-									<div class="menu-img-block">
-										<span class="icon-menu-01-my-credit"></span>
-									</div>
-									<span class="text-link">Мой кредит</span>
-								</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link item-2" href="#">
-									<div class="menu-img-block">
-										<span class="icon-menu-02-my-info"></span>
-									</div>
-									<span class="text-link">Мои данные</span>
-								</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link item-3" href="#">
-									<div class="menu-img-block">
-										<span class="icon-menu-03-my-cards"></span>
-									</div>
-									<span class="text-link">Мои карты</span>
-								</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link active item-4" href="#">
-									<div class="menu-img-block">
-										<span class="icon-menu-04-my-bonus"></span>
-									</div>
-									<span class="text-link">Мои бонусы и баллы</span>
-								</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link item-5" href="#">
-									<div class="menu-img-block">
-										<span class="icon-menu-05-my-history"></span>
-									</div>
-									<span class="text-link">Моя история</span>
-								</a>
-							</li>
-						</ul>
+				<div class="col-lg-12 block-btn-bar no-p row no-m">
+					<ul class="nav nav-pills">
+						<li class="nav-item">
+							<a class="nav-link item-1" href="#">
+								<div class="menu-img-block">
+									<span class="icon-menu-01-my-credit"></span>
+								</div>
+								<span class="text-link">Мой кредит</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link item-2" href="#">
+								<div class="menu-img-block">
+									<span class="icon-menu-02-my-info"></span>
+								</div>
+								<span class="text-link">Мои данные</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link item-3" href="#">
+								<div class="menu-img-block">
+									<span class="icon-menu-03-my-cards"></span>
+								</div>
+								<span class="text-link">Мои карты</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active item-4" href="#">
+								<div class="menu-img-block">
+									<span class="icon-menu-04-my-bonus"></span>
+								</div>
+								<span class="text-link">Мои бонусы и баллы</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link item-5" href="#">
+								<div class="menu-img-block">
+									<span class="icon-menu-05-my-history"></span>
+								</div>
+								<span class="text-link">Моя история</span>
+							</a>
+						</li>
+					</ul>
 				</div>
-			</div>
-			<div class="container">
-				<div class="block-content-inner">
-					<div class="content-discount col-lg-9 col-md-8 col-sm-8 no-p">
+				<div class="block-content-inner row no-m no-p col-sm-12">
+					<div class="content-discount col-lg-9 col-md-8 col-sm-8 no-p" id="block1">
 						<div class="block-slider">
 							<div class="swiper-container-discount">
 								<span class="title">Мои скидки</span>
@@ -547,11 +545,11 @@
 							</div>
 						</div>
 					</div>
-					<div class="side-bar col-lg-3 col-md-4 ol-sm-4 no-p">
+					<div class="side-bar col-lg-3 col-md-4 col-sm-4 no-p" id="block2">
 						<div class="block-bonuses">
 							<div class="block-info">
 								<span class="levels">5 уровень</span>
-								<span class="balls">365 баллов</span>
+								<span class="balls";>365 баллов</span>
 							</div>
 							<span class="title-info">Доступные бонусы</span>
 							<div class="block-sticker-discount">
@@ -577,140 +575,138 @@
 		<div class="footer-top">
 			<div class="container">
 				<div class="col-md-10 col-sm-12 left-block no-p">
-					<div class="container-fluid no-p">
-						<div class="row footer-row col-md-12 top-block">
-							<div class="footer-col-1 col-md-4 col-sm-4 no-p">
-								<p class="footer-heading footer-open-close">
-									<span class="title">О нас</span>
-								</p>
-								<div class="btn-footer-menu fa fa-plus-square-o">
-								</div>
-								<div class="footer-menu-b">
-									<ul class="footer-menu">
-										<li>	
-											<a href="" alt="Правовая информация" title="Правовая информация">Правовая информация</a>
-										</li>
-										<li>	
-											<a href="" alt="Договор займа" title="Договор займа">Договор займа</a>
-										</li>
-										<li>	
-											<a href="" alt="Финансовая отчетность" title="Финансовая отчетность">Финансовая отчетность</a>
-										</li>
-										<li>	
-											<a href="" alt="Политика конфиденциальности" title="Политика конфиденциальности">Политика конфиденциальности</a>
-										</li>
-										<li>	
-											<a href="" alt="Партнерам" title="Партнерам">Партнерам</a>
-										</li>
-										<li>	
-											<a href="" alt="Отзывы" title="Отзывы">Отзывы</a>
-										</li>
-										<li>	
-											<a href="" alt="Контакты" title="Контакты">Контакты</a>
-										</li>
-									</ul>
-								</div>
+					<div class="row footer-row col-md-12 top-block no-m no-p ">
+						<div class="footer-col-1 col-md-4 col-sm-4 no-p">
+							<p class="footer-heading footer-open-close">
+								<span class="title">О нас</span>
+							</p>
+							<div class="btn-footer-menu fa fa-plus-square-o">
 							</div>
-							<div class="footer-col-1 col-md-4 col-sm-4 no-p">
-								<p class="footer-heading footer-open-close">
-									<span class="title">Часто задаваемые вопросы</span>
-								</p>
-								<div class="btn-footer-menu fa fa-plus-square-o">
-								</div>
-								<div class="footer-menu-b">
-									<ul class="footer-menu">
-										<li class="footer-menu-item">
-											<a href="#" class="footer-menu-link js-hash">Как подать запрос?</a>
-										</li>
-										<li class="footer-menu-item">
-											<a href="#" class="footer-menu-link js-hash">Как погасить / продлить кредит</a>
-										</li>
-										<li class="footer-menu-item">
-											<a href="#" class="footer-menu-link js-hash">Почему мне отказали в выдаче кредита</a>
-										</li>
-										<li class="footer-menu-item">
-											<a href="#" class="footer-menu-link js-hash">Блог</a>
-										</li>
-									</ul>
-								</div>
+							<div class="footer-menu-b">
+								<ul class="footer-menu">
+									<li>	
+										<a href="" alt="Правовая информация" title="Правовая информация">Правовая информация</a>
+									</li>
+									<li>	
+										<a href="" alt="Договор займа" title="Договор займа">Договор займа</a>
+									</li>
+									<li>	
+										<a href="" alt="Финансовая отчетность" title="Финансовая отчетность">Финансовая отчетность</a>
+									</li>
+									<li>	
+										<a href="" alt="Политика конфиденциальности" title="Политика конфиденциальности">Политика конфиденциальности</a>
+									</li>
+									<li>	
+										<a href="" alt="Партнерам" title="Партнерам">Партнерам</a>
+									</li>
+									<li>	
+										<a href="" alt="Отзывы" title="Отзывы">Отзывы</a>
+									</li>
+									<li>	
+										<a href="" alt="Контакты" title="Контакты">Контакты</a>
+									</li>
+								</ul>
 							</div>
-							<div class="footer-col-1 col-md-4 col-sm-4 no-p">
-								<p class="footer-heading footer-open-close">
-									<span class="title">Как вернуть кредит</span>
-								</p>
-								<div class="btn-footer-menu fa fa-plus-square-o">
-								</div>
-								<div class="footer-menu-b">
-										<ul class="footer-menu">
-											<li>	
-												<a href="#">В интернете</a>
-											</li>
-											<li>	
-												<a href="#">Оплата кредита через терминал</a>
-											</li>
-											<li>	
-												<a href="#">В кассе банка</a>
-											</li>
-										</ul>
-								</div>
-								</div>
+						</div>
+						<div class="footer-col-1 col-md-4 col-sm-4 no-p">
+							<p class="footer-heading footer-open-close">
+								<span class="title">Часто задаваемые вопросы</span>
+							</p>
+							<div class="btn-footer-menu fa fa-plus-square-o">
 							</div>
-							<div class="row bottom-block no-m">
-								<div class="col-xs-12 col-md-services col-md-12 no-p">
-									<p class="footer-heading footer-open-close">
-										<span class="title">Услуги кредитования</span>
-									</p>
-									<div class="btn-footer-menu fa fa-plus-square-o">
-									</div>
-									<div class="footer-menu-b footer-menu-service col-md-12 no-p">
-										<ul class="footer-menu col-md-6 col-sm-6 no-p">
-											<li>	
-												<a href="#">Деньги до зарплаты онлайн за 20 минут</a>
-											</li>
-											<li>	
-												<a href="#">Кредит от 18 лет без справок и поручителей </a>
-											</li>
-											<li>	
-												<a href="#">Кредиты без залога в Киеве, Харькове и всей Украине</a>
-											</li>
-											<li>	
-												<a href="#">Потребительский кредит онлайн в Украине</a>
-											</li>
-											<li>	
-												<a href="#">Кредит для пенсионеров в Украине</a>
-											</li>
-											<li>	
-												<a href="#">Микрокредит и микрозайм онлайн на карту</a>
-											</li>
-											<li>	
-												<a href="#">Кредит онлайн с плохой кредитной историей в Украине</a>
-											</li>
-										</ul>
-										<ul class="footer-menu col-md-6 col-sm-6 no-p">
-											<li>	
-												<a href="#">Взять кредит онлайн без справки о доходах в Украине</a>
-											</li>
-											<li>	
-												<a href="#">Деньги в долг на карту</a>
-											</li>
-											<li>	
-												<a href="#">Краткосрочный кредит на 1 месяц</a>
-											</li>
-											<li>	
-												<a href="#">Беспроцентный кредит под 0% без переплат</a>
-											</li>
-											<li>	
-												<a href="#">Кредит 365 дней в году</a>
-											</li>
-											<li>	
-												<a href="#">Кредитный калькулятор онлайн в Украине</a>
-											</li>
-										</ul>
-									</div>
-								</div>
+							<div class="footer-menu-b">
+								<ul class="footer-menu">
+									<li class="footer-menu-item">
+										<a href="#" class="footer-menu-link js-hash">Как подать запрос?</a>
+									</li>
+									<li class="footer-menu-item">
+										<a href="#" class="footer-menu-link js-hash">Как погасить / продлить кредит</a>
+									</li>
+									<li class="footer-menu-item">
+										<a href="#" class="footer-menu-link js-hash">Почему мне отказали в выдаче кредита</a>
+									</li>
+									<li class="footer-menu-item">
+										<a href="#" class="footer-menu-link js-hash">Блог</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="footer-col-1 col-md-4 col-sm-4 no-p">
+							<p class="footer-heading footer-open-close">
+								<span class="title">Как вернуть кредит</span>
+							</p>
+							<div class="btn-footer-menu fa fa-plus-square-o">
+							</div>
+							<div class="footer-menu-b">
+								<ul class="footer-menu">
+									<li>	
+										<a href="#">В интернете</a>
+									</li>
+									<li>	
+										<a href="#">Оплата кредита через терминал</a>
+									</li>
+									<li>	
+										<a href="#">В кассе банка</a>
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>
+					<div class="row bottom-block no-m">
+						<div class="col-xs-12 col-md-services col-md-12 no-p">
+							<p class="footer-heading footer-open-close">
+								<span class="title">Услуги кредитования</span>
+							</p>
+							<div class="btn-footer-menu fa fa-plus-square-o">
+							</div>
+							<div class="footer-menu-b footer-menu-service col-md-12 no-p">
+								<ul class="footer-menu col-md-6 col-sm-6 no-p">
+									<li>	
+										<a href="#">Деньги до зарплаты онлайн за 20 минут</a>
+									</li>
+									<li>	
+										<a href="#">Кредит от 18 лет без справок и поручителей </a>
+									</li>
+									<li>	
+										<a href="#">Кредиты без залога в Киеве, Харькове и всей Украине</a>
+									</li>
+									<li>	
+										<a href="#">Потребительский кредит онлайн в Украине</a>
+									</li>
+									<li>	
+										<a href="#">Кредит для пенсионеров в Украине</a>
+									</li>
+									<li>	
+										<a href="#">Микрокредит и микрозайм онлайн на карту</a>
+									</li>
+									<li>	
+										<a href="#">Кредит онлайн с плохой кредитной историей в Украине</a>
+									</li>
+								</ul>
+								<ul class="footer-menu col-md-6 col-sm-6 no-p">
+									<li>	
+										<a href="#">Взять кредит онлайн без справки о доходах в Украине</a>
+									</li>
+									<li>	
+										<a href="#">Деньги в долг на карту</a>
+									</li>
+									<li>	
+										<a href="#">Краткосрочный кредит на 1 месяц</a>
+									</li>
+									<li>	
+										<a href="#">Беспроцентный кредит под 0% без переплат</a>
+									</li>
+									<li>	
+										<a href="#">Кредит 365 дней в году</a>
+									</li>
+									<li>	
+										<a href="#">Кредитный калькулятор онлайн в Украине</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
 					<div class="col-md-2 col-sm-12 text-right footer-cont right-block" >
 						<div class="footer-phone">
 							<a class="phone-city" href="tel:0800214111">0 800 214 111</a>
@@ -733,52 +729,50 @@
 			</div>
 		<div class="bottom-line">
 			<div class="container">
-					<div class="col-sm-12">
+					<div class="col-sm-12 no-p">
 						<div class="block-inner-footer row no-m">
 							<div class="block-logo col-lg-2 no-p col-md-3">
 								<a href="#" class="img-block">
 										<img src="img/logo-white.png" alt="logo">
 								</a>
 							</div>
-							<div class="col-lg-6 col-md-6 footer-description col-lg-offset-1 col-md-offset-0 no-p">
+							<div class="col-lg-6 col-md-5 footer-description col-lg-offset-1 col-md-offset-0 no-p">
 								<p class="footer-text">Первый в Украине сервис кредитования через интернет.<br> Мы предоставляем быстрые и удобные кредиты для всех граждан Украины. <br>© 2015 - 2018 MyCredit - Кредит онлайн на банковскую карту за 20 минут <br>
 								</p>
 							</div>
-							<div class="col-lg-3  col-md-4 offset-xl-1 offset-lg-0 no-p">
-								<div class="social-wrapper">
-									<ul class="social">
-										<li class="social-item">
-											<a href="#" target="_blank" class="social-link vk">
-												<i class="fab fa-vk"></i>
-											</a>
-										</li>
-										<li class="social-item">
-											<a href="#" target="_blank" class="social-link facebook">
-												<i class="fab fa-facebook-f"></i>
-											</a>
-										</li>
-										<li class="social-item">
-											<a  href="#" class="social-link instagramm" target="_blank">
-												<i class="fab fa-instagram"></i>
-											</a>
-										</li>
-										<li class="social-item">
-											<a  href="#" class="social-link instagramm" target="_blank">
-												<i class="fab fa-twitter"></i>
-											</a>
-										</li>
-										<li class="social-item">
-											<a  href="#" target="_blank" class="social-link youtube">
-												<i class="fab fa-youtube"></i>
-											</a>
-										</li>
-										<li class="social-item">
-											<a href="#" target="_blank" class="social-link google">
-												<i class="fab fa-google-plus"></i>
-											</a>
-										</li>
-									</ul>
-								</div>
+							<div class="col-lg-3  col-md-4  offset-md-0 no-p social-wrapper">
+								<ul class="social">
+									<li class="social-item">
+										<a href="#" target="_blank" class="social-link vk">
+											<i class="fab fa-vk"></i>
+										</a>
+									</li>
+									<li class="social-item">
+										<a href="#" target="_blank" class="social-link facebook">
+											<i class="fab fa-facebook-f"></i>
+										</a>
+									</li>
+									<li class="social-item">
+										<a  href="#" class="social-link instagramm" target="_blank">
+											<i class="fab fa-instagram"></i>
+										</a>
+									</li>
+									<li class="social-item">
+										<a  href="#" class="social-link instagramm" target="_blank">
+											<i class="fab fa-twitter"></i>
+										</a>
+									</li>
+									<li class="social-item">
+										<a  href="#" target="_blank" class="social-link youtube">
+											<i class="fab fa-youtube"></i>
+										</a>
+									</li>
+									<li class="social-item">
+										<a href="#" target="_blank" class="social-link google">
+											<i class="fab fa-google-plus"></i>
+										</a>
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>
@@ -788,16 +782,13 @@
 
 	<!--SCRIPT-->
 	<script src="js/libs.min.js"></script>
-		<script src="js/common.js"></script>
+	<script src="js/common.js"></script>
 	<script src="js/tether.min.js"></script>
 	<script src="js/bootstrap.js" ></script>
-	<script type="js/javascript">
-		/* Set the width of the side navigation to 250px */
+	<script type="text/javascript">
 		function openNav() {
 			document.getElementById("mySidenav").style.width = "250px";
 		}
-
-		/* Set the width of the side navigation to 0 */
 		function closeNav() {
 			document.getElementById("mySidenav").style.width = "0";
 		}

@@ -17,10 +17,20 @@ $(document).ready(function () {
             }
         }
 	});
-     $(".btn-footer-menu").click(function(){
+    $(".btn-footer-menu").click(function(){
         $(this).toggleClass("fa-plus-square-o");
         $(this).toggleClass("fa-minus-square-o");
         $(this).next(".footer-menu-b").fadeToggle('fast');
+    });
+    $(document).ready(function() {
+        $(window).resize(function(){
+            var windowWidth = $(window).width();
+            if(windowWidth < 767) {
+                var b1 = document.getElementById("block1");
+                var b2 = document.getElementById("block2");
+            b1.parentNode.insertBefore(block2, block1);
+            }
+        })
     });
 });
 
